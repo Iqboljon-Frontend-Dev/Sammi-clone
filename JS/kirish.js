@@ -1,4 +1,4 @@
-export let firstTimeLoading = false;
+export let firstTimeLoading = true;
 const nightIcon = document.querySelector(".dark");
 const lightIcon = document.querySelector(".light");
 
