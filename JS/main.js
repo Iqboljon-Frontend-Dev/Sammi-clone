@@ -56,13 +56,13 @@ if (confirm == "tasdiqlandi") {
   kirishBtn.classList.add("yoq");
   kirishImg.classList.add("bor");
 } else {
-  kirishBtn.classList.add("bor");
+  // kirishBtn.classList.add("bor");
   kirishImg.classList.add("yoq");
 }
 
-kirishBtn.onclick = () => {
-  kirishBtn.classList.add("kirish_Btn2");
-};
+// kirishBtn.onclick = () => {
+//   kirishBtn.classList.add("kirish_Btn2");
+// };
 
 sammiForm.addEventListener("submit", (i) => {
   i.preventDefault();

@@ -1,5 +1,4 @@
-import { firstTimeLoading } from "./Kirish/kirish";
-console.log(firstTimeLoading);
+console.log(1);
 if (firstTimeLoading == true) {
   var users = [];
   let users_Json = JSON.stringify(users);
@@ -8,3 +7,5 @@ if (firstTimeLoading == true) {
   userCount = JSON.stringify(userCount);
   localStorage.setItem("user_Count", userCount);
 }
+
+import { firstTimeLoading } from "./kirish.js";
