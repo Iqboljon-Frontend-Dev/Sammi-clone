@@ -1,4 +1,4 @@
-import { firstTimeLoading } from "./kirish";
+import { firstTimeLoading } from "./Kirish/kirish";
 console.log(firstTimeLoading);
 if (firstTimeLoading == true) {
   var users = [];
