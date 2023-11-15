@@ -1,0 +1,95 @@
+@media (max-width: 1030px) {
+    .kontakt-royhatdan-otish {
+        width: 950px;
+
+    }
+
+    .kontakt-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .boglanish {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 980px) {
+    .kontakt-royhatdan-otish {
+        width: 920px;
+    }
+
+    .kontakt-royhat-box1>input,
+    .kontakt-royhat-box1>textarea {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 950px) {
+    .kontakt-royhatdan-otish {
+        width: 850px;
+    }
+}
+
+@media (max-width: 880px) {
+    .kontakt-royhatdan-otish {
+        width: 780px;
+        margin-left: 1%;
+    }
+
+    .kontakt-img {
+        width: 50%;
+    }
+
+    .boglanish,
+    .platformaga-savollar {
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 820px) {
+    .kontakt-royhatdan-otish {
+        /* width: 720px; */
+        width: 98%;
+    }
+}
+
+@media (max-width: 768px) {
+    .kontakt-img {
+        display: none;
+    }
+
+    .kontakt-royhat-box1>input,
+    .kontakt-royhat-box1>textarea {
+        /* width: 680px; */
+        width: 98%;
+    }
+    .kontakt-royhat-box1{
+        width: 98%;
+    }
+    .kontakt-royhat-box{
+        width: 98%;
+    }
+}
+
+@media (max-width: 767px){
+    .kontakt-huquqlar-hioyalangan1{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+}
+@media (max-width: 440px){
+    .kontakt-huquqlar-hioyalangan>p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

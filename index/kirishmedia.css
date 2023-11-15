@@ -1,0 +1,34 @@
+@media (max-width:770px) {
+    .sign-container-img{
+        display: none;
+    }
+    .sign-container-form,
+    .sign-container-form2{
+        width: 92%;
+    }
+    .sign-container-form-social-medias{
+        flex-direction: column;
+        padding: 0;
+    }
+    .sign-container-form-social-media{
+        width: 100%;
+    }
+    #nav::after{
+        opacity: 0 !important;
+    }
+}
+@media (max-width:358px) {
+    .sign-container-form > h1,
+    .sign-container-form2 > h1{
+        font-size: 1.4rem;
+    }
+    .sign-container-ask{
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .sign-container-form-remember{
+        flex-direction: column;
+        gap: 10px;
+        align-items: start !important;
+    }
+}

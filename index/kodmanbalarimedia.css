@@ -1,0 +1,19 @@
+@media only screen and (max-width:1270px){
+    .body__main{
+        width: 95%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .page__cards{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:800px){
+        .page__cards{
+            flex-direction: column;
+        }
+        }
+        .card{
+            width: 97%;
+}

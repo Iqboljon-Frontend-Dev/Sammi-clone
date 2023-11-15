@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+.kontakt-box{
+    margin: 0 auto;
+    width: 1000px;
+    height: 520px;
+}
+.boglanish{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #38a169;
+}
+input{
+    outline-color: green !important;
+    transition: 80ms;
+    background-color: transparent;
+    color: var(--clr-black);
+}
+input:focus,
+input:active{
+    border: none !important;
+    border-color: transparent;
+}
+textarea{
+    outline-color: green;
+    background-color: transparent;
+    display: block;
+    color: var(--clr-black);
+}
+.kontakt-box{
+    width: 100% !important;
+}
+svg{
+    color: var(--mern-courses-img);
+}
+.platformaga-savollar{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.kontakt-royhatdan-otish{
+    margin-top: 3%;
+    width: 100%;
+    height: 81%;
+    border-radius: 7px;
+    border: 1px solid var(--mern-border-color);
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--mern-bc-color);
+}
+.kontakt-royhat-box{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.kontakt-royhat-box1{
+    width: 95%;
+    height: 95%;
+}
+.kontakt-img{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 370px;
+    width: 42%;
+    height: 100%;
+}
+.kontakt-royhat-box1>p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+.kontakt-royhat-box1>input{
+    width: 520px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #e2e8f0;
+    font-size: 16px;
+    padding-left: 3%;
+}
+.kontakt-royhat-box1>textarea{
+    width: 520px;
+    height: 78px;
+    border-radius: 5px;
+    border: 2px solid #e2e8f0;
+    margin-top: 2%;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+.yuborish{
+    margin-top: 3%;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+    background-color: #38a169;
+    border: none;
+    border-radius: 5px;
+    padding: 2% 3%;
+    cursor: pointer;
+}
+.kontakt-huquqlar-hioyalangan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f7fafc; */
+    width: 100%;
+    height: 80px;
+    margin-top: 12%;
+    position: absolute;
+    padding-right: 4%;
+    gap: 1rem;
+}
+.kontakt-huquqlar-hioyalangan1{
+    font-size: 16px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.huquqlar-hioyalangan-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.kontakt-telegram, .kontakt-youtube, .kontakt-instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #e2e8f0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.huquqlar-hioyalangan-icons > div{
+    color: #000;
+}
+.color-white{
+    color: white !important;
+}

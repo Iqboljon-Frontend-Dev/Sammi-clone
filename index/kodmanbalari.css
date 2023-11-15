@@ -1,0 +1,97 @@
+:root{
+    --root-color: red;
+}
+.body__main{
+    width: 100%;
+    height: auto;
+    padding-left: 60px;
+    position: relative;
+    position: absolute;
+    isolation: isolate;
+}
+.color-white{
+    color: white;
+}
+#body__mainimg{
+    position: absolute;
+    top: 32%;
+    right: -20%;
+    font-size: 500px;
+    color: #718096;
+    opacity: .2;
+}
+.bigpage__texts{
+    width: 100%;
+    margin: 2% 0;
+}
+.page__title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+.page__title b{
+    color: rgba(0, 128, 0, 0.856);
+}
+.page__text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+.page__cards{
+    width: 97%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: none;
+    margin: 1% 0;
+}
+.card{
+    width: 310px;
+    height: auto;
+    border: .1px solid var(--mern-border-color);
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px var(--kodlar-card-bxShadow);
+    background-color: var(--mern-bc-color);
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.card__img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(102, 118, 133, 0.795);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+#card__icon{
+    font-size: 30px;
+    color: #fff;
+}
+.card__text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.card__button{
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    border: 1px solid var(--headerBtn-light-bccolor);
+    color: var(--headerBtn-light-bccolor);
+    font-weight: 600;
+    background-color: transparent;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.card__button i{
+    margin-left: 10px;
+}
+.jjjj{
+    text-decoration: none;
+}

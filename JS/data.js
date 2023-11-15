@@ -1,0 +1,15 @@
+import { firstTimeLoading } from "./kirish";
+
+if ((firstTimeLoading = true)) {
+  var users = [];
+  let users_Json = JSON.stringify(users);
+  localStorage.setItem("users", users_Json);
+  let userCount = 0;
+  userCount = JSON.stringify(userCount);
+  localStorage.setItem("user_Count", userCount);
+
+  function selfActivate() {
+    let scriptHome = document.getElementsByTagName("script");
+    scriptHome[1].remove();
+  }
+}

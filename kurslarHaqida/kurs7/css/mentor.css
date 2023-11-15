@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profil__div{
+    width: 97%;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+}
+.profil__img{
+    width: 22%;
+    margin-right: 20px;
+}
+.imgs{
+    width: 100%;
+    border-radius: 50%;
+}
+.div__p{
+    margin-bottom: 10px;
+}
+#hhhhhh{
+    margin-left: 13px;
+}
+#kkkkkk{
+    margin-left: 13px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid green;
+    transform: rotate(-90deg);
+    text-align: center;
+    line-height: 12px;
+}
+.Samar__haqida{
+    margin-top: -30px;
+}
+.profil__p{
+    width: 100%;
+    margin-top: 15px;
+}
+.profil__p b{
+    color: green;
+}
+.tavsif{
+    color: black;
+}
+.mentor{
+    color: green;
+}
+@media only screen and (max-width:770px){
+    .profil__img{
+        display: none;
+    }   
+}

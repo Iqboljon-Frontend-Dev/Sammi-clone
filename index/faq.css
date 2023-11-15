@@ -1,0 +1,128 @@
+.body__main{
+    width: 100%;
+    height: auto;
+    padding-left: 60px;
+    position: relative;
+    
+}
+#body__mainimg{
+    position: absolute;
+    top: 32%;
+    right: -24%;
+    font-size: 500px;
+    color: #718096;
+    opacity: .2;
+    z-index: 1;
+}
+.bigpage__texts{
+    width: 100%;
+    margin: 2% 0;
+}
+.page__title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+.page__title b{
+    color: rgba(0, 128, 0, 0.856);
+}
+.page__text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+.manbalar__cards{
+    width: 98%;
+    height: auto;
+    border: .1px solid var(--mern-border-color);
+    box-shadow: 0px 0px 5px rgb(240, 239, 239);
+    background-color: var(--mern-bc-color);
+    border-radius: 10px;
+    padding-top: 2%;
+    display: grid;
+    transition: all 500ms;
+
+}
+.manba__card{
+    width: 96%;
+    height: 100%;
+    border: 1px solid rgba(240, 239, 239, 0.344);
+    border-radius: 7px;
+    margin: 1% auto;
+    transition: .5s;
+}
+.manba__card2{
+    height: 2% !important;
+}
+.color-white{
+    color: white !important;
+}
+.card__title{
+    width: 100%;
+    height: auto;
+    background-color: var(--faq-q-bccolor);
+    opacity: .9;
+    border-radius: 7px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+}
+.card__title:hover{
+    opacity: 1;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.card__title i{
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    border: 2px solid var(--clr-black);
+    color: var(--clr-black);
+    border-radius: 50%;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    transition: .5s;
+}
+.plus-to-x{
+    transform: rotate(45deg);
+}
+.card__p{
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    height: 100%;
+    margin: 2% auto;
+    margin-top: 1%;
+    font-size: 17px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card__p2{
+    height: 0 !important;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+@media only screen and (max-width:1270px){
+    .body__main{
+        width: 95%;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+@media (max-width:690px) {
+    #body__mainimg{
+        right: -30%;
+        transform: scale(.8);
+    }
+}
+@media (max-width:556px) {
+    #body__mainimg{
+        right: -54%;
+    }
+}
+@media (max-width:420px) {
+    #body__mainimg{
+        z-index: -1;
+    }
+}

@@ -1,0 +1,250 @@
+/* ---- Header ---- */
+@media (max-width:1280px) {
+    #header{
+        padding: 1.2rem 4.8%;
+    }
+    .header-logo i{
+        display: flex;
+    }
+    #nav{
+        left: -100%;
+    }
+    .main-container{
+        width: 100vw;
+    }
+}
+@media (max-width:1080px) {
+    .sammi-infos{
+        width: 76%;
+        padding-right: 0 !important;
+    }
+    .sammi-courses-heading{
+        font-size: 2.26rem;
+    }
+    .sammi-infos > p{
+        width: 100%;
+        font-size: 1.32rem;
+    }
+    #sammi-courses-icon{
+        width: 24%;
+        translate: 0;
+    }
+    .sammi-services{
+        padding: 1.2rem 1rem;
+    }
+    .sammi-service{
+        width: 128px;
+        text-align: center;
+    }
+    .new-sammi-courses img{
+        transform: scale(1.28) scaleX(1.1);
+    }
+    .new-sammi-course{
+        gap:1.4rem;
+    }
+    .invation p{
+        font-size: 14.8px;
+    }
+}
+@media (max-width:768px) {
+    #header{
+        padding: 1.12rem 2.8%;
+    }
+    .header-logo i{
+        margin-right: 14px;
+    }
+    .header-links{
+        gap: .8rem;
+    }
+    .light{
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 0px 1px, rgb(62, 62, 62) 0px 0px 0px 1px inset;
+    }
+    .dark{
+        box-shadow: rgba(67, 71, 85, 0.32) 0px 0px 0.25em, rgba(90, 125, 188, 0.08) 0px 0.25em 1em;
+    }
+    .mern{
+        gap: 1.2rem;
+        height: auto;
+        padding-bottom: 1.2rem;
+        margin-top: 20px;
+    }
+    .mern-heading{
+        font-size: 1.6rem;
+        transform: translateY(10px);
+        line-height: 24px;
+    }
+    .mern-bc-icon{
+        left: -4%;
+        top: 12% !important;
+    }
+    #mern-bc-icon-last{
+        left: 76%;
+    }
+    .sammi-courses{
+        padding: 0 10px;
+    }
+    .mern-heading{
+        width: 88%;
+    }
+    .sammi-infos{
+        width: 100%;
+    }
+    #sammi-courses-icon{
+        position: absolute;
+        right: 24.8%;
+        top: 20%;
+        transform: scale(3.4) translateY(-20px);
+        opacity: .2;
+    }
+    .sammi-courses-heading{
+        font-size: 1.6rem;
+    }
+    .sammi-infos-about{
+        width: 100%;
+    }
+    .sammi-info-about p{
+        font-size: 14px;
+    }
+    .sammi-service{
+        width: 96px;
+    }
+    .sammi-service h2{
+        font-size: .88rem;
+    }
+    .new-sammi-courses{
+        padding-top: 72px;
+        height: auto;
+    }
+    .new-sammi-courses-container{
+        flex-direction:column;
+    }
+    .new-sammi-courses-img{
+        width: 100%;
+    }
+    .invations-c{
+        grid-template-columns: 1fr;
+    }
+    .invation{
+        width: 100%;
+    }
+    .invation p{
+        font-size: 1rem;
+    }
+    .sammi-form{
+        flex-direction: column;
+    }
+    .sammi-form > *{
+        width: 100% !important;
+    }
+}
+@media (max-width:690px) {
+    .h-btn-info{
+        display: none !important;
+    }
+    .header-links button{
+        color: var(--clr-white);
+        width: 40px;
+        height: 32px;
+        background-color: #38A169;
+        padding: initial;
+        font-size: .8rem;
+    }
+    .exit-icon{
+        display: flex !important;
+    }
+    .bx-envelope{ /* maktub icon */
+        display: none;
+    }
+    #mern-bc-icon-first{
+        display: none;
+    }
+    #mern-bc-icon-second{
+        left: 9.2%;
+        width: 80% !important;
+        height: 80% !important;
+    }
+    #mern-bc-icon-last{
+        display: none;
+    }
+    .sammi-infos-about{
+        width: 100%;
+        height: 380px;
+        flex-direction: column;
+        padding: 0;
+        background-color: var(--mern-bc-color);
+        border-color: transparent;
+        isolation: isolate;
+        z-index: -1;
+    }
+    .sammi-info-about{
+        width: 100%;
+        height: 22%;
+        border: none;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        font-size: 2rem;
+        border: 1px solid var(--mern-border-color);
+        background-color: var(--mern-bc-color);
+        border-radius: 14px;
+        padding: 0 8px;
+    }
+    .sammi-info-about > p{
+        font-size: 1.92rem;
+    }
+    .sammi-services{
+        padding: 2rem 0;
+    }
+    .sammi-service-logo{
+        width: 72px;
+        height: 72px;
+    }
+    .sammi-service{
+        width: 90px;
+    }
+    .sammi-service h2{
+        font-size: 14px;
+    }
+    .sammi-service-arrow{
+        transform: scale(1.2);
+    }
+}
+@media (max-width:480px) {
+    .sammi-services{
+        display: none;
+    }
+    .sammi-form-c{
+        width: 80%;
+        padding: 1.2rem 2%;
+        text-align: center;
+    }
+    .sammi-form-c h2{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .sammi-form input{
+        height: 32px;
+        font-size: 1rem;
+    }
+    .sammi-form button{
+        height: 32px;
+        font-size: 1rem;
+    }
+}
+@media (max-width:417px) {
+    .mern-heading{
+        margin-bottom: 1rem;
+    }
+    .sammi-info-about > p{
+        font-size: 1.2rem;
+    }
+    .popular-courses{
+        width: 100%;
+    }
+    .popular-course{
+        padding: 1rem;
+    }
+    .popular-courses-c{
+        grid-template-columns: repeat(auto-fit , minmax(302px, 2fr));
+    }
+}
+/* ---- Header ---- /*/
